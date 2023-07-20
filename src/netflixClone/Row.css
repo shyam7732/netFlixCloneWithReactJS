@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.row{
+    margin: 1rem;
+}
+.row .movies{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.row .movies::-webkit-scrollbar{
+    display: none;
+}
+.row.bigger .movies img{
+    width: 150px;
+}
+.row .movies img{
+    width: 100px;
+    margin: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* .row .movies img:hover{
+    transform: scale(1.1);
+} */
