@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from './axios'
-import "./Row.css"
+import "./CSS/Row.css"
 
 function Row(props) {
 

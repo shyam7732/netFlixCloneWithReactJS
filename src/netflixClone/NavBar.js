@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from "./img/logo.png";
 import emoji from "./img/emoji.jpg";
-import "./navBar.css"
+import "./CSS/navBar.css"
 
 function NavBar() {
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import "./banner.css"
+import "./CSS/banner.css"
 import axios from './axios'
 import requests from './requests'
 
@@ -19,7 +19,6 @@ function Banner() {
         })
     }, [])
 
-    console.log(banner)
 
   return (
     <div className='banner' style={{background: "url("+imgFullPath + banner.backdrop_path+")"}}>
